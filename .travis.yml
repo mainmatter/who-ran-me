@@ -21,5 +21,4 @@ before_install:
   - npm config --global set spin false
   - npm install -g $PACKAGE
 
-test:
-  - $COMMAND
+script: $COMMAND
