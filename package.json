@@ -1,0 +1,18 @@
+{
+  "name": "who-ran-me",
+  "version": "1.0.0",
+  "description": "Small utillity to check if script was run with npm or yarn",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chris Manson <chris.manson@simplabs.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}

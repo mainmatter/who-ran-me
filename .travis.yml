@@ -1,0 +1,25 @@
+language: node_js
+
+node_js:
+  - 6
+  - 8
+  - 10
+
+branches:
+  only:
+    - master
+
+env:
+- PACKAGE=yarn;COMMAND="yarn test";EXPECTED_RUNNER=yarn
+- PACKAGE=npm@4;COMMAND="npm test";EXPECTED_RUNNER=npm
+- PACKAGE=npm@5;COMMAND="npm test";EXPECTED_RUNNER=npm
+- PACKAGE=npm@6;COMMAND="npm test";EXPECTED_RUNNER=npm
+- PACKAGE=mocha;COMMAND="mocha";EXPECTED_RUNNER=mocha
+- PACKAGE=npm@6;COMMAND="npx mocha";EXPECTED_RUNNER=npx
+
+before_install:
+  - npm config --global set spin false
+  - npm install -g $PACKAGE
+
+test:
+  - $COMMAND
