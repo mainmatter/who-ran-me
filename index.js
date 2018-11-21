@@ -15,7 +15,5 @@ module.exports = function whoRanMe() {
     return basename(process.env._);
   }
 
-  console.log(process.env);
-
   return 'unknown';
 };
