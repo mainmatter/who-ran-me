@@ -2,12 +2,22 @@
   "name": "who-ran-me",
   "version": "1.0.1",
   "description": "Small utillity to check if script was run with npm or yarn",
+  "keywords": [
+    "npm",
+    "utility",
+    "yarn"
+  ],
+  "repository": "https://github.com/simplabs/who-ran-me",
+  "license": "ISC",
+  "author": {
+    "name": "Chris Manson",
+    "email": "chris.manson@simplabs.com",
+    "url": "https://simplabs.com"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Chris Manson <chris.manson@simplabs.com>",
-  "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.9.0",
