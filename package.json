@@ -7,12 +7,12 @@
     "utility",
     "yarn"
   ],
-  "repository": "https://github.com/simplabs/who-ran-me",
+  "repository": "https://github.com/Mainmatter/who-ran-me",
   "license": "ISC",
   "author": {
     "name": "Chris Manson",
-    "email": "chris.manson@simplabs.com",
-    "url": "https://simplabs.com"
+    "email": "chris.manson@mainmatter.com",
+    "url": "https://mainmatter.com"
   },
   "main": "index.js",
   "scripts": {
